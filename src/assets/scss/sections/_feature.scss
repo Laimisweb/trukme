@@ -46,6 +46,31 @@
   margin-right: auto;
   margin-left: auto;
 }
+.button-features:hover {
+  display: flex;
+  border: 2px solid #0B385B;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 70px;
+  position: static;
+  width: 340px;
+  margin-top: 20px;
+  height: 35px;
+  left: 1056px;
+  top: 0px;
+  background-color: #0B385B;
+  border-radius: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 .feature-area {

@@ -25,6 +25,7 @@
     "react": "17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "npm:@hot-loader/react-dom",
+    "react-faq-component": "^1.3.1",
     "react-headroom": "^3.0.0",
     "react-helmet": "^6.1.0",
     "react-lazyload": "^3.1.0",
@@ -38,6 +39,7 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
     "swiper": "^6.4.11",
+    "tailwindcss": "^2.2.19",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {

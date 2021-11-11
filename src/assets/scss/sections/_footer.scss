@@ -23,6 +23,11 @@
     font-size: 14px;
     line-height: 19px;
 }
+.button-footer:hover {
+    border: 2px solid #0B385B;
+    color: #0B385B;
+    background-color: #fff;
+}
 .footer-copyright {
     position: relative;
     top: 110px;
@@ -32,7 +37,18 @@
 }
 .subscriber {
     position: static;
-    width: 1239px;
+    width: auto;
+    height: 420px;
+    left: 0.5px;
+    top: 0px;
+    background-color: #29588C;
+    border-radius: 24px;
+    margin-bottom: 100px;  
+}
+@media (max-width:1025px) { 
+.subscriber {
+    position: static;
+    width: auto;
     height: 420px;
     left: 0.5px;
     top: 0px;
@@ -40,6 +56,44 @@
     border-radius: 24px;
     margin-bottom: 100px;
 }
+.subscriber-form {
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 21px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    position: static;
+    width: -webkit-fill-available !important;
+    height: 104px;
+    left: 0px;
+    top: 178px;
+}
+}
+@media (max-width:480px) { 
+    .subscriber-container {
+        padding: 20px !important;
+    }
+
+    .subscriber-heading {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px !important;
+        line-height: 42px !important;
+        color: #FFFFFF;
+        padding-right: 0% !important;
+    }
+
+    .subscriber-container {
+        padding-top: 60px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
 .subscriber-heading {
     font-style: normal;
     font-weight: bold;
@@ -47,6 +101,8 @@
     line-height: 53px;
     color: #FFFFFF;
     padding-right: 30%;
+
+
 }
 .subscriber-text {
     font-style: normal;
@@ -57,6 +113,8 @@
 }
 .subscriber-container {
     padding: 64px;
+
+    
 }
 .subscriber-form {
     border: 2px solid #FFFFFF;
@@ -68,10 +126,11 @@
     flex-grow: 0;
     margin: 32px 0px;
     position: static;
-    width: 1111px;
+    width: -webkit-fill-available;
     height: 104px;
     left: 0px;
     top: 178px;
+
 }
 .subscriber-form::placeholder {
     position: absolute;
@@ -108,11 +167,38 @@ input, select, textarea {
     width: 138px;
     height: 72px;
     left: 957px;
-    top: 16px;
     background: #FFFFFF;
     border-radius: 12px;
     position: relative;
     top: -120px;
+
+    @include mobile-xs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 36px 20px;
+        border: 0px solid;
+        width: auto;
+        height: 0px;
+        left: 230px;
+        border-radius: 12px;
+        position: relative;
+        top: -120px;
+    }
+    @include tablet {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 36px 20px;
+        border: 0px solid;
+        width: auto;
+        height: 0px;
+        left: -30px;
+        border-radius: 12px;
+        position: relative;
+        top: -120px;
+        float: right;
+    }
 }
 
 .footer-area {

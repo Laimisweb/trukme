@@ -2,17 +2,21 @@
          Brand     CSS 
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
+
+        @media (max-width:1025px) { 
+            .brand-area .brand-area__single {
+                margin: 0px 0px 0px 0px !important;
+                width: 30%;
+            }
+          }
+
+
+
 .brand-area{
-    @include mobile-xs {
-        margin: 0px -30px -30px -30px;
-        padding-top: 40px;
-    }
-    @include tablet {
-        padding-top: 40px;
-    }
     @include large-desktops {
         margin: 0px;
         padding-top: 40px;
+        
     }
     .brand-area__single{
         @include mobile-xs {

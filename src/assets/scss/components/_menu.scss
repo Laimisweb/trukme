@@ -804,8 +804,8 @@ li.nav-item-has-children {
 
 	.container-fluid .site-navbar {
 		@include desktops {
-			padding-left: 20px !important;
-			padding-right: 20px !important;
+			padding-left: 120px !important;
+			padding-right: 120px !important;
 		}
 
 		@include extra-large-desktops {

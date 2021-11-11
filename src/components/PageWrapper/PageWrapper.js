@@ -6,7 +6,7 @@ import Link  from "../Link";
 import favicon from '../../assets/image/favicon.png'
 import Preloader from '../../assets/image/preloader.gif'
 const innerHeader = {
-  headerClasses: "site-header--menu-center light-header position-relative",
+  
   containerFluid: true,
   darkLogo:true
 }
@@ -35,12 +35,9 @@ const Loader = styled.div`
 const InnerHeaderButton = () => {
   return (
     <div className="inner-header-buttons ms-auto d-none d-xs-inline-flex pe-3">
-      <Link className="btn log-in-btn focus-reset" to="/sign-in">
-        Login
-      </Link>
-      <Link className="btn sign-in-btn focus-reset" to="/sign-up">
-        Sign In
-      </Link>
+      <p className="pages">
+        1 iš 6
+      </p>
     </div>
   )
 }
@@ -49,7 +46,7 @@ export default function PageWrapper({
   HeaderButton,
   children,
   innerPageHeader,
-  preloader = true,
+  preloader = false,
 }) {
 
   const [visibleLoader, setVisibleLoader] = React.useState(true);

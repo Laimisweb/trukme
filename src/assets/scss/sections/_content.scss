@@ -47,6 +47,17 @@
     width: 60%;
     float:left;
     padding-right: 10px;
+
+    @include mobile-xs {
+        width: 100%;
+      }
+      @include mobile-lg {
+        width: 100%;
+      }
+    
+      @include tablet {
+        width: 60%;
+      }
 }
 .content-column-right {
     width: 30%;
@@ -80,6 +91,7 @@
                 box-shadow: 40px 44px 81px rgba(111, 118, 138, 0.16);
                 border-radius: 10px;
                 max-width: 500px;
+                    
             }
         }
 
@@ -221,13 +233,13 @@
     position: relative;
 
     @include mobile-xs {
-        padding-top: 0px;
+        padding-top: 80px;
         padding-bottom: 0px;
     }
 
     @include large-desktops {
-        padding-top: 130px;
-        padding-bottom: 130px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
 

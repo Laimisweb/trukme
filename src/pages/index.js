@@ -8,7 +8,7 @@ import {
   IntegrationSection,
   FooterSection,
   TestimonialSection
-} from "../sections/software"
+} from "../sections/konfiguratorius"
 
 import PageWrapper from '../components/PageWrapper'
 
@@ -18,11 +18,11 @@ const Header = {
   headerClasses:"site-header--menu-center site-header--sticky dark-header",
   containerFluid:true
 }
-
+ 
 const HeaderButton = ()=>{
   return(
     <div className="header-btns  header-btns  ms-auto d-none d-xs-inline-flex">
-      <Link className="btn sign-in-btn focus-reset" to="#">
+      <Link className="btn sign-in-btn focus-reset" to="/virtuves-tipas">
         Konfiguratorius
       </Link>
     </div>

@@ -6,7 +6,6 @@ import "../../node_modules/swiper/swiper.scss";
 import "../assets/scss/main.scss"
 import "../assets/scss/react-scss.scss"
 import "../assets/scss/sections/_duk.scss";
-
 import "../assets/fonts/fontawesome-5/css/all.min.css"
 import Layout from "../components/Layout";
 
